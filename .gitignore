@@ -1,0 +1,25 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.egg-info/
+
+# OS / WSL
+*.Zone.Identifier
+*:Zone.Identifier
+.DS_Store
+
+# Literatura con derechos de autor — no al repo
+literature/*.pdf
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# Archivos generados (los .pptx se generan con script, no se versiona el binario)
+docs/**/*.pptx
+
+# Template original — sí se versiona la copia en assets/
+Template.pptx
