@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3:*)",
+      "Bash(jupyter:*)",
+      "Bash(pip:*)",
+      "Bash(find:*)",
+      "Bash(ls:*)"
+    ]
+  }
+}
