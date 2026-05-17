@@ -175,6 +175,7 @@ class Model:
     nugget:     float = 0.0
     flag_kit:   int   = 0     # 0=Dietrich&Newsam
     flag_zh:    int   = 0     # 0=standard, 1=low-K connected, 2=high-K connected
+    zh_smoother: float = 0.0  # Zinn & Harvey regularization [0, 0.25]
     beta:       float = -4.0  # log(K) mean
     Qbb:        float = 0.0   # variance of uncertain mean
     periodicity: np.ndarray = field(default_factory=lambda: np.array([0, 0]))
